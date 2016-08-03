@@ -42,6 +42,34 @@ audio:not([controls]) {
 template {
   display: none;
 }
+.parent{
+    position:relative;    
+    width: 300px;
+    height:30px;   
+}
+
+.child_content{
+    background: rgba(255,255,255,0.3);
+    position:absolute;
+    width: 300px;
+    height:30px;
+    border-radius:3px;
+    z-index:2;
+}
+.child_content h2{
+    font:bold 24px/30px Arial, Sans-serif;
+    padding:0;
+    margin:0;
+    color:black;
+    text-align: center;
+}
+.child_content h2{
+    font:bold 24px/30px Arial, Sans-serif;
+    padding:0;
+    margin:0;
+    color:black;
+    text-align: center;
+}
 a {
   background-color: transparent;
 }
