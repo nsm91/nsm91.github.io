@@ -17,13 +17,13 @@ body {
 }
 
 .text-vertical-center {
-    display: table-column;
+    display: table-cell;
     text-align: center;
     vertical-align: middle;
 }
 
 .text-bottom-right {
-    display: table-cell;
+    display: block;
     text-align: right;
     vertical-align: bottom;
 }
