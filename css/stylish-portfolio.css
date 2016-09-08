@@ -23,7 +23,7 @@ body {
 }
 
 .text-bottom-right {
-    display: block;
+    display: table-cell;
     text-align: right;
     vertical-align: bottom;
 }
